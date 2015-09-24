@@ -1,0 +1,15 @@
+SJPCAP 0.2 README
+
+Popular java-based packet capture (pcap) libraries implement parts of their
+functionality using libpcap over JNI. For those that require nothing more
+than support for parsing pcap files, these libraries introduce unnecessary
+complexity and potential OS compatibility issues.
+
+The sjpcap library is a native alternative that parses libpcap-created packet
+capture files to create simplified, java-based object representations of
+IPv4-based IP, UDP and TCP packets.
+
+SJPCAP BUILD/USE INFORMATION
+
+Please see INSTALL for build and example use information.
+
